@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <!-- Привет мир -->
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/HelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <!-- Обработка     -->
+
+    <servlet>
+        <servlet-name>Obrabotka</servlet-name>
+        <servlet-class>Obrabotka</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Obrabotka</servlet-name>
+        <url-pattern>/Obrabotka</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Обработка     -->
+
+    <servlet>
+        <servlet-name>ServletChat</servlet-name>
+        <servlet-class>ServletChat</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletChat</servlet-name>
+        <url-pattern>/Chat</url-pattern>
+    </servlet-mapping>
+
+</web-app>
