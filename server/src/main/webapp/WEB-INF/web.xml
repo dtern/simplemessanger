@@ -15,17 +15,6 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
         <url-pattern>/HelloWorld</url-pattern>
     </servlet-mapping>
 
-    <!-- Обработка     -->
-
-    <servlet>
-        <servlet-name>Obrabotka</servlet-name>
-        <servlet-class>Obrabotka</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Obrabotka</servlet-name>
-        <url-pattern>/Obrabotka</url-pattern>
-    </servlet-mapping>
-
 
     <!-- Обработка     -->
 
